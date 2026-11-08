@@ -693,6 +693,7 @@ section { scroll-margin-top: 84px; }
   font-size: 62px;
   letter-spacing: -0.03em;
 }
+.price strong.free { font-size: 34px; }
 .price-note { margin: 8px 0 16px; font-size: 13px; color: #4d5c59; }
 .ticket > .price { margin-top: auto; }
 .ticket .btn { width: 100%; }
@@ -934,6 +935,7 @@ section { scroll-margin-top: 84px; }
   .speaker-grid { grid-template-columns: repeat(12, 1fr); }
   .speaker:nth-child(-n + 3) { grid-column: span 4; }
   .speaker:nth-child(n + 4) { grid-column: span 3; }
+  .ticket-grid { grid-template-columns: repeat(3, 1fr); }
   .visit-grid { grid-template-columns: 0.78fr 1.22fr; }
 }
 
